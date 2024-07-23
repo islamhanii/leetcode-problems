@@ -25,7 +25,7 @@ class Solution
         return $this->isValidBSTHelper($root, null, null);
     }
 
-    function isValidBSTHelper($root, $min, $max)
+    private function isValidBSTHelper($root, $min, $max)
     {
         if ($root === null) {
             return true;
